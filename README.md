@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/BitWeb/zf3-cron-module.svg?branch=master)](https://travis-ci.org/BitWeb/zf3-cron-module)
 [![Coverage Status](https://coveralls.io/repos/BitWeb/zf3-cron-module/badge.png?branch=development)](https://coveralls.io/r/BitWeb/zf3-cron-module?branch=master)
-[ZF3](https://github.com/zendframework/zf3) implementation for [Cron/Cron](https://github.com/Cron/Cron)
+[ZF3](https://github.com/zendframework) implementation for [Cron/Cron](https://github.com/Cron/Cron)
 ===============
 
 ### Installation

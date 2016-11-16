@@ -22,7 +22,7 @@
         "cron/cron": "~1.0",
         "bitweb/stdlib": "~1.1",
         "zendframework/zend-mvc": "^3.0",
-        "zendframework/zend-console": "^2.0",
+        "zendframework/zend-mvc-console": "^1.1",
         "zendframework/zend-servicemanager":"^2.2 || ^3.0.1"
     },
     "require-dev": {

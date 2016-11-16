@@ -4,6 +4,7 @@ namespace BitWeb\CronModule;
 
 use Zend\Console\Adapter\AdapterInterface;
 use Zend\ModuleManager\Feature\ControllerProviderInterface;
+use Zend\ServiceManager\ServiceManager;
 
 class Module implements ControllerProviderInterface
 {
@@ -19,7 +20,7 @@ class Module implements ControllerProviderInterface
                 'BitWeb\CronModule\Controller\Index' => 'BitWeb\CronModule\Controller\IndexController'
             ],
             'initializers' => [
-                function (\Zend\Mvc\Controller\ControllerManager $cm, $controller) {
+                function (ServiceManager $cm, $controller) {
                     if ($controller instanceof \BitWeb\CronModule\Service\Cron\CronServiceAwareInterface) {
                         $controller->setCronService($cm->get('BitWeb\CronModule\Service\Cron'));
                     }

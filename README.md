@@ -3,6 +3,8 @@
 [ZF3](https://github.com/zendframework) implementation for [Cron/Cron](https://github.com/Cron/Cron)
 ===============
 
+### Working with Zend Framework 2? [We've got you covered](https://github.com/BitWeb/zf2-cron-module).
+
 ### Installation
 
 Installation of CronModule uses composer. For composer documentation, please refer to

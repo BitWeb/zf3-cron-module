@@ -1,0 +1,16 @@
+<?php
+return [
+    'cronModule' => [
+        'phpPath'    => 'php',
+        'jobs'       => [
+            [
+                'command'  => 'index.php application cron do-job',
+                'schedule' => '* * * * *'
+            ],
+            [
+                'command'  => 'index.php application cron do-another-job',
+                'schedule' => '0 * * * *'
+            ]
+        ]
+    ]
+];

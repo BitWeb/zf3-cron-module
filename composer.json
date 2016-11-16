@@ -1,0 +1,37 @@
+{
+    "name": "bitweb/zf2-cron-module",
+    "description": "BitWeb ZF2 module for cron.",
+    "license": "BSD-3-Clause",
+    "homepage": "http://bitweb.ee/",
+    "authors": [
+        {
+            "name": "Kristjan Andresson",
+            "email": "kristjan.andresson@bitweb.ee"
+        },
+        {
+            "name": "Rain Ramm",
+            "email": "rain@bitweb.ee"
+        },
+        {
+            "name": "Tõnis Tobre",
+            "email": "tobre@bitweb.ee"
+        }
+    ],
+    "require": {
+        "php": "^5.5|^7.0",
+        "cron/cron": "~1.0",
+        "bitweb/stdlib": "~1.1",
+        "zendframework/zend-mvc": "^3.0",
+        "zendframework/zend-console": "^2.0",
+        "zendframework/zend-servicemanager":"^2.2 || ^3.0.1"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "3.7.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ["src/", "test/"]
+        }
+    }
+}

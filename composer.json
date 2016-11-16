@@ -1,7 +1,7 @@
 {
-    "name": "bitweb/zf2-cron-module",
-    "description": "BitWeb ZF2 module for cron.",
-    "license": "BSD-3-Clause",
+    "name": "bitweb/zf3-cron-module",
+    "description": "BitWeb ZF3 module for cron.",
+    "license": "MIT",
     "homepage": "http://bitweb.ee/",
     "authors": [
         {

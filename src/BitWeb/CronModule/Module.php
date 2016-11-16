@@ -19,7 +19,7 @@ class Module implements ControllerProviderInterface
                 'BitWeb\CronModule\Controller\Index' => 'BitWeb\CronModule\Controller\IndexController'
             ],
             'initializers' => [
-                function ($controller, \Zend\Mvc\Controller\ControllerManager $cm) {
+                function (\Zend\Mvc\Controller\ControllerManager $cm, $controller) {
                     if ($controller instanceof \BitWeb\CronModule\Service\Cron\CronServiceAwareInterface) {
                         $controller->setCronService($cm->get('BitWeb\CronModule\Service\Cron'));
                     }

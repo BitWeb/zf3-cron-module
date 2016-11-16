@@ -25,6 +25,6 @@ class CronServiceFactoryTest extends \PHPUnit_Framework_TestCase
         $serviceLocatorInterfaceMock->expects($this->any())->method('get')->will($this->returnValue($this->correctConfig));
         $factory = new CronServiceFactory();
 
-        $this->assertEquals($cronService, $factory->createService($serviceLocatorInterfaceMock));
+        $this->assertEquals($cronService, $factory->__invoke($serviceLocatorInterfaceMock, CronService::class));
     }
 } 
